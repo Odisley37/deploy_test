@@ -25,19 +25,6 @@ staticfiles/
 # Ignora pastas e arquivos criados pelo sistema
 .DS_Store
 .idea/
-Isso evita que arquivos sensíveis, diretórios específicos do ambiente, logs e pastas de cache sejam adicionados ao controle de versão.
-
-Passo 2: Instale o python-dotenv para Carregar Variáveis de Ambiente
-Para carregar variáveis de ambiente a partir de um arquivo .env, instale o pacote python-dotenv:
-
-bash
-Copiar código
-pip install python-dotenv
-Passo 3: Configure o Arquivo .env
-Crie um arquivo .env na raiz do seu projeto e defina suas variáveis de ambiente. Adicione informações sensíveis como:
-
-env
-Copiar código
 # Configurações do banco de dados
 DB_NAME=corujaxp
 DB_USER=usuario
